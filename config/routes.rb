@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  # mount the api
+  mount API::Root => '/'
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  app_name: MyString
+  app_store_id: 1
+  package: MyString
+  url: MyString
+
+two:
+  app_name: MyString
+  app_store_id: 1
+  package: MyString
+  url: MyString
