@@ -30,6 +30,8 @@ gem 'grape' # grape api
 
 gem 'metainspector' # meta tag inspection gem
 
+gem 'pry-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
