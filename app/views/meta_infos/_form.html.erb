@@ -1,0 +1,17 @@
+<%= form_for(@meta_info) do |f| %>
+  <% if @meta_info.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@meta_info.errors.count, "error") %> prohibited this meta_info from being saved:</h2>
+
+      <ul>
+      <% @meta_info.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

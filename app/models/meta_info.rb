@@ -56,5 +56,8 @@ class MetaInfo < ActiveRecord::Base
       get_meta_info(url, batch_number)
     end
 
+    #return metadata
+    MetaInfo.where(batch_number: batch_number)
+
   end
 end
